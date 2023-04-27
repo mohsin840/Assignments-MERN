@@ -39,3 +39,45 @@
 .first{
   text-align: center;
 }
+.bech{
+  align-items: center;
+}
+.maind{
+  text-align: center;
+  font-size: larger;
+
+}
+.border{
+  border: rgb(167, 139, 81);
+  border-style: double;
+  width:40%;
+  background-color: rgb(95, 95, 95);
+}
+.layout {
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.layout{
+  width: 100%;
+  background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../public/bgpics.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+}
+.pad{
+  margin-left: 2%;
+}
+.pads{
+  margin-left: 3%;
+}
+.mainds{
+  color: black;
+  border-color: black;
+}
