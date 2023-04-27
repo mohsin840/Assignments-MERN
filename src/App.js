@@ -75,7 +75,7 @@ function WeatherDropdown() {
       {weatherData && (
         <div>
           <h3>Current weather in {selectedCity}, {selectedCountry}:</h3>
-          <p>Temperature: {weatherData.main.temp}°C</p>
+          <p>Temperature: {weatherData.main.temp-273}°C</p>
           <p>Weather: {weatherData.weather[0].description}</p>
           <p>Wind speed: {weatherData.wind.speed} m/s</p>
         </div>
